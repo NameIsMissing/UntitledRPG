@@ -535,8 +535,8 @@ class GameUtils:
         GameUtils.okButton = Group(Rect(30, 320, 140, 40, fill = "white", border = "black", borderWidth = 2),
                                    Label("Return to Menu", 100, 340, fill = "black", size = 18))
         
-        credits = Group(Label("Game Programming: Cameron Hultz", 200, 40, fill = "white", size = 20),
-                        Label("Map Design: Cameron Hultz", 200, 100, fill = "white", size = 20),
+        credits = Group(Label("Game Programming: NameIsMissing", 200, 40, fill = "white", size = 20),
+                        Label("Map Design: NameIsMissing", 200, 100, fill = "white", size = 20),
                         Label("Map tiles: RPG Nature Tileset by Stealthix", 200, 160, fill = "white", size = 20))
         
         GameUtils.displayScreen.add(bg, GameUtils.okButton, credits)
